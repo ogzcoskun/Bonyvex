@@ -143,7 +143,7 @@ namespace Bonyvex.GiftShop.api.Controllers
                     Payment = payment
                 });
 
-                return Ok();
+                return Ok(response);
 
             }
             catch(Exception ex)
